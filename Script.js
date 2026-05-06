@@ -5,9 +5,9 @@ function validarAnagrama(){
     const sorted1 = palabra1.split('').sort().join('');
     const sorted2 = palabra2.split('').sort().join('');
     if (sorted1 === sorted2) {
-        alert("¡Las palabras son anagramas!");
+        alert("SI");
     } else {
-        alert("Las palabras no son anagramas.");
+        alert("NO");
     }
     
 }
